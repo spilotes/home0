@@ -118,6 +118,25 @@ color: #6b727c;
   transition: all 0.2s ease-in-out;
 }
 
+  /* Define a animação */
+  @keyframes animacao {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Aplica a animação ao objeto */
+  .bbc {
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-delay: 2.5s; /* Define um atraso de 2 segundos */
+    opacity: 0; /* Define a opacidade inicial como 0 */
+    animation-fill-mode: forwards;
+  }
+
 .bbc:hover {
   text-decoration: underline;
   filter: drop-shadow(0 0 0.4rem #c9d1d9);
