@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #c9d1d9;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0c0f14;
+  opacity: 1;
+  background-size: 6px 6px;
+  background-image: repeating-linear-gradient(
+    0deg,
+    #080808,
+    #080808 0.6000000000000001px,
+    #3e2325 0.6000000000000001px,
+    #3e2325
+  );
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.salutation {
+  position: absolute;
+  top: 4vh;
+  font-size: 1.4rem;
+  font-family: "Nanum Pen Script", cursive;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.face {
+  position: absolute;
+  top: 12vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.yo {
+  width: 15vw;
+  border: 3px solid #c9d1d9;
+  border-style: dashed;
+  border-radius: 50%;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.4rem #000);
+  transition: all 1s ease-in-out;
+}
+
+.yo:hover {
+  border-style: solid;
+  filter: drop-shadow(0 0 0.4rem #c9d1d9);
+}
+
+.mail {
+  position: absolute;
+  top: 46vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.9rem;
+  font-weight: 100;
+  transition: all 0.2s ease-in-out;
+}
+
+.mail:hover {
+  font-weight: 300;
+}
+
+.links-title {
+  position: absolute;
+  display: flex;
+  top: 54vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.links-title span {
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.bbc {
+  position: absolute;
+  top: 72vh;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+  filter: drop-shadow(0 0 0.4rem #000);
+  transition: all 0.2s ease-in-out;
+}
+
+.bbc:hover {
+  text-decoration: underline;
+  filter: drop-shadow(0 0 0.4rem #c9d1d9);
+}
+
+.bbc img {
+  position: absolute;
+  width: 10vw;
+  top: -15vh;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.ano {
+  position: absolute;
+  bottom: 1vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.75rem;
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.ano span {
+  font-size: 1rem;
+  font-family: "Nanum Pen Script", cursive;
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 82vh;
+}
+
+.links-container aside {
+  display: flex;
+  gap: 1rem;
+}
+
+.links-container aside a {
+  text-decoration: none;
+}
+
+.links-container aside i {
+  display: flex;
+  cursor: pointer;
+  font-size: 2.5rem;
+  transition: all 0.3s ease-in-out;
+  color: #6b727c;
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.links-container aside i:hover {
+  color: #c9d1d9;
+}
+
+.ano {
+  position: absolute;
+  bottom: 1vh;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.75rem;
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
+.ano span {
+  font-size: 1rem;
+  font-family: "Nanum Pen Script", cursive;
+  filter: drop-shadow(0 0 0.2rem #000);
+}

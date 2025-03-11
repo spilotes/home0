@@ -1,0 +1,166 @@
+@media (max-width: 414px) {
+  .salutation {
+    position: absolute;
+    top: 4vh;
+    font-size: 1.4rem;
+    font-family: "Nanum Pen Script", cursive;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
+
+  .face {
+    position: absolute;
+    top: 12vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .yo {
+    width: 40vw;
+    border: 3px solid #c9d1d9;
+    border-style: dashed;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.4rem #000);
+    transition: all 1s ease-in-out;
+  }
+
+  .yo:hover {
+    border-style: solid;
+    filter: drop-shadow(0 0 0.4rem #c9d1d9);
+  }
+
+  .mail {
+    position: absolute;
+    top: 35vh;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 0.9rem;
+    font-weight: 100;
+    transition: all 1s ease-in-out;
+  }
+
+  /* Define a animação */
+  @keyframes animacao {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Aplica a animação ao objeto */
+  .mail {
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-delay: 2s; /* Define um atraso de 2 segundos */
+    opacity: 0; /* Define a opacidade inicial como 0 */
+    animation-fill-mode: forwards;
+  }
+
+  .links-title {
+    position: absolute;
+    display: flex;
+    top: 42vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .links-title span {
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  .bbc img {
+    position: absolute;
+    width: 25vw;
+    top: -9vh;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .bbc {
+    position: absolute;
+    top: 53.5vh;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+    filter: drop-shadow(0 0 0.4rem #000);
+  }
+
+  /* Define a animação */
+  @keyframes animacao {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Aplica a animação ao objeto */
+  .bbc {
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-delay: 2.5s; /* Define um atraso de 2 segundos */
+    opacity: 0; /* Define a opacidade inicial como 0 */
+    animation-fill-mode: forwards;
+  }
+
+  .bbc:hover {
+    text-decoration: underline;
+    filter: drop-shadow(0 0 0.4rem #c9d1d9);
+  }
+
+  .links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62vh;
+    margin-left: 2vh;
+  }
+
+  .links-container aside {
+    display: grid;
+    grid-template-columns: repeat(3, 3.3rem);
+    grid-template-rows: minmax(2rem, auto) repeat(3, 2rem);
+    gap: 1rem;
+  }
+
+  .links-container aside a {
+    text-decoration: none;
+  }
+
+  .links-container aside i {
+    display: flex;
+    cursor: pointer;
+    font-size: 2.9rem;
+    transition: all 0.3s ease-in-out;
+    color: #6b727c;
+  }
+
+  .links-container aside i:hover {
+    color: #c9d1d9;
+  }
+
+  .ano {
+    position: absolute;
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 0.75rem;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
+
+  .ano span {
+    font-size: 1rem;
+    font-family: "Nanum Pen Script", cursive;
+    filter: drop-shadow(0 0 0.2rem #000);
+  }
+}
