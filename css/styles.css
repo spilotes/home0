@@ -63,13 +63,14 @@ body {
   top: 46vh;
   left: 50%;
   transform: translate(-50%);
+color: #6b727c;
   font-size: 0.9rem;
-  font-weight: 100;
+  font-weight: 300;
   transition: all 0.2s ease-in-out;
 }
 
 .mail:hover {
-  font-weight: 300;
+  color: #c9d1d9;
 }
 
 .links-title {
