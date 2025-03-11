@@ -66,6 +66,18 @@
     color: #c9d1d9;
 }
 
+.mail a {
+color: #6b727c;
+}
+
+.mail a {
+color: #6b727c;
+}
+
+.mail a:hover {
+color: #6b727c;
+}
+
   .links-title {
     position: absolute;
     display: flex;
