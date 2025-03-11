@@ -37,8 +37,9 @@
     top: 35vh;
     left: 50%;
     transform: translate(-50%);
+    color: #6b727c;
     font-size: 0.9rem;
-    font-weight: 100;
+    font-weight: 300;
     transition: all 1s ease-in-out;
   }
 
@@ -60,6 +61,10 @@
     opacity: 0; /* Define a opacidade inicial como 0 */
     animation-fill-mode: forwards;
   }
+
+.mail:hover {
+    color: #c9d1d9;
+}
 
   .links-title {
     position: absolute;
