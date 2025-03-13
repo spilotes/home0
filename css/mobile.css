@@ -107,7 +107,6 @@ color: #c9d1d9;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
-    font-family: "Nanum Pen Script", cursive;
     letter-spacing: 0.05rem;
     filter: drop-shadow(0 0 0.4rem #000);
   }
@@ -135,6 +134,12 @@ color: #c9d1d9;
     text-decoration: underline;
     filter: drop-shadow(0 0 0.4rem #c9d1d9);
   }
+
+  .bbc a {
+  font-size: 1.2rem;
+  font-family: "Nanum Pen Script", cursive;
+}
+
 
   .links-container {
     display: flex;
