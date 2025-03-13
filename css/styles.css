@@ -113,6 +113,7 @@ color: #6b727c;
   left: 50%;
   transform: translate(-50%);
   cursor: pointer;
+  font-family: "Nanum Pen Script", cursive;
   letter-spacing: 0.05rem;
   filter: drop-shadow(0 0 0.4rem #000);
   transition: all 0.2s ease-in-out;
