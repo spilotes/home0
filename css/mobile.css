@@ -81,7 +81,7 @@ color: #c9d1d9;
   .links-title {
     position: absolute;
     display: flex;
-    top: 47vh;
+    top: 49vh;
     left: 50%;
     transform: translate(-50%);
   }
@@ -96,7 +96,7 @@ color: #c9d1d9;
   .bbc img {
     position: absolute;
     width: 25vw;
-    top: -7vh;
+    top: -8vh;
     left: 50%;
     transform: translate(-50%);
   }
