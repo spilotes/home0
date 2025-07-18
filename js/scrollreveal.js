@@ -5,6 +5,11 @@ ScrollReveal().reveal(".salutation", {
   delay: 2000,
 });
 
+ScrollReveal().reveal(".name", {
+  duration: 1000,
+  delay: 2000,
+});
+
 ScrollReveal().reveal(".mail", {
   duration: 1000,
   delay: 2000,
