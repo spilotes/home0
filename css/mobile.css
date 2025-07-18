@@ -34,7 +34,7 @@
 
   .mail {
     position: absolute;
-    top: 40vh;
+    top: 41vh;
     left: 50%;
     transform: translate(-50%);
     color: #6b727c;
@@ -81,7 +81,7 @@ color: #c9d1d9;
   .links-title {
     position: absolute;
     display: flex;
-    top: 45vh;
+    top: 47vh;
     left: 50%;
     transform: translate(-50%);
   }
@@ -96,14 +96,14 @@ color: #c9d1d9;
   .bbc img {
     position: absolute;
     width: 25vw;
-    top: -9vh;
+    top: -10vh;
     left: 50%;
     transform: translate(-50%);
   }
 
   .bbc {
     position: absolute;
-    top: 56.5vh;
+    top: 57.5vh;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
@@ -145,7 +145,7 @@ color: #c9d1d9;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 65vh;
+    margin-top: 68vh;
     margin-left: 2vh;
   }
 
