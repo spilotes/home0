@@ -60,7 +60,7 @@ body {
 
 .mail {
   position: absolute;
-  top: 49vh;
+  top: 51vh;
   left: 50%;
   transform: translate(-50%);
 color: #6b727c;
@@ -95,7 +95,7 @@ color: #6b727c;
 .links-title {
   position: absolute;
   display: flex;
-  top: 56vh;
+  top: 58vh;
   left: 50%;
   transform: translate(-50%);
 }
@@ -109,7 +109,7 @@ color: #6b727c;
 
 .bbc {
   position: absolute;
-  top: 72vh;
+  top: 74vh;
   left: 50%;
   transform: translate(-50%);
   cursor: pointer;
@@ -150,7 +150,7 @@ color: #6b727c;
 .bbc img {
   position: absolute;
   width: 10vw;
-  top: -15vh;
+  top: -13vh;
   left: 50%;
   transform: translate(-50%);
   transition: all 0.3s ease-in-out;
