@@ -110,6 +110,7 @@ color: #6b727c;
 
 .mail a:hover {
 color: #c9d1d9;
+transition: all 0.2s ease-in-out;
 }
 
 .links-title {
