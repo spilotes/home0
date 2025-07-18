@@ -58,6 +58,17 @@ body {
   filter: drop-shadow(0 0 0.4rem #c9d1d9);
 }
 
+.name {
+  position: absolute;
+  top: 40vh;
+  font-size: 1.4rem;
+  font-family: "Nanum Pen Script", cursive;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  filter: drop-shadow(0 0 0.2rem #000);
+}
+
 .mail {
   position: absolute;
   top: 53vh;
