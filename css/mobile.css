@@ -34,7 +34,7 @@
 
   .mail {
     position: absolute;
-    top: 35vh;
+    top: 40vh;
     left: 50%;
     transform: translate(-50%);
     color: #6b727c;
@@ -81,7 +81,7 @@ color: #c9d1d9;
   .links-title {
     position: absolute;
     display: flex;
-    top: 42vh;
+    top: 45vh;
     left: 50%;
     transform: translate(-50%);
   }
@@ -103,7 +103,7 @@ color: #c9d1d9;
 
   .bbc {
     position: absolute;
-    top: 53.5vh;
+    top: 56.5vh;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
@@ -145,7 +145,7 @@ color: #c9d1d9;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 62vh;
+    margin-top: 65vh;
     margin-left: 2vh;
   }
 
