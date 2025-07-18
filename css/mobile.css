@@ -96,14 +96,14 @@ color: #c9d1d9;
   .bbc img {
     position: absolute;
     width: 25vw;
-    top: -10vh;
+    top: -14vh;
     left: 50%;
     transform: translate(-50%);
   }
 
   .bbc {
     position: absolute;
-    top: 57.5vh;
+    top: 60.5vh;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
