@@ -60,7 +60,7 @@ body {
 
 .mail {
   position: absolute;
-  top: 46vh;
+  top: 49vh;
   left: 50%;
   transform: translate(-50%);
 color: #6b727c;
@@ -95,7 +95,7 @@ color: #6b727c;
 .links-title {
   position: absolute;
   display: flex;
-  top: 54vh;
+  top: 56vh;
   left: 50%;
   transform: translate(-50%);
 }
