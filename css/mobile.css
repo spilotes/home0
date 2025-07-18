@@ -96,7 +96,7 @@ color: #c9d1d9;
   .bbc img {
     position: absolute;
     width: 25vw;
-    top: -19vh;
+    top: -6vh;
     left: 50%;
     transform: translate(-50%);
   }
