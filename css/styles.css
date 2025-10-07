@@ -130,7 +130,7 @@ transition: all 0.2s ease-in-out;
 
 .bbc {
   position: absolute;
-  top: 74vh;
+  top: 78vh;
   left: 50%;
   transform: translate(-50%);
   cursor: pointer;
@@ -235,3 +235,4 @@ transition: all 0.2s ease-in-out;
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
