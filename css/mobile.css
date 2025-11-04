@@ -34,9 +34,9 @@
 
   .name {
     top: 35vh;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     font-weight: 400;
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.06rem;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%);
@@ -45,7 +45,7 @@
 
   .mail {
     position: absolute;
-    top: 39vh;
+    top: 38.5vh;
     left: 50%;
     transform: translate(-50%);
     color: #6b727c;
