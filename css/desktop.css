@@ -1,28 +1,21 @@
 @media screen and (min-width: 1400px) {
+  .name {
+    top: 43vh;
+  }
 
-.name {
-  top: 44vh;
-}
+  .mail {
+    top: 47vh;
+  }
 
-.mail {
-  top: 48vh;
-}
-  
   .links-title {
-  top: 63vh;
+    top: 63vh;
+  }
+
+  .bbc {
+    top: 77vh;
+  }
+
+  .bbc img {
+    top: -7.5vh;
+  }
 }
-
-.bbc {
-  top: 77vh;
-}
-
-.bbc img {
-  top: -7.5vh;
-}
-}
-
-
-
-
-
-
