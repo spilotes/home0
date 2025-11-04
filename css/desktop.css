@@ -1,5 +1,13 @@
 @media screen and (min-width: 1400px) {
 
+.name {
+  top: 44vh;
+}
+
+.mail {
+  top: 48vh;
+}
+  
   .links-title {
   top: 63vh;
 }
@@ -12,6 +20,7 @@
   top: -7.5vh;
 }
 }
+
 
 
 
