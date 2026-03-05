@@ -25,6 +25,237 @@ body {
   overflow-y: hidden;
 }
 
+/* ============================================
+   BACKGROUND ANIMADO - Linkebat
+   ============================================ */
+
+/* Container principal do background */
+.background-container {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(to bottom, #1a0a0a, #0f0a0a, #0a0a0a);
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Gradiente animado que segue o mouse */
+.background-gradient {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  /* O JavaScript vai atualizar essas posições */
+  background:
+    radial-gradient(
+      ellipse at 20% 30%,
+      rgba(220, 38, 38, 0.25) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse at 80% 70%,
+      rgba(127, 29, 29, 0.2) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 50% 100%,
+      rgba(69, 10, 10, 0.3) 0%,
+      transparent 50%
+    );
+}
+
+/* Container das estrelas */
+.stars-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* Estrela individual */
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle var(--twinkle-duration, 3s) ease-in-out infinite;
+  animation-delay: var(--twinkle-delay, 0s);
+}
+
+/* Container dos morcegos */
+.bats-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+  overflow: hidden;
+}
+
+/* Morcego individual */
+.bat {
+  position: absolute;
+  animation: bat-fly var(--fly-duration, 15s) linear infinite;
+  animation-delay: var(--fly-delay, 0s);
+}
+
+.bat svg {
+  animation: wing-flap 0.3s ease-in-out infinite;
+}
+
+/* ============================================
+   ANIMAÇÕES
+   ============================================ */
+
+/* Estrelas piscando */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* Morcego voando */
+@keyframes bat-fly {
+  0% {
+    transform: translateX(-100px) translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(calc(100vw + 100px)) translateY(-50px) rotate(10deg);
+    opacity: 0;
+  }
+}
+
+/* Batimento de asas */
+@keyframes wing-flap {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.7);
+  }
+}
+
+/* Glow pulsante (para foto de perfil) */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(220, 38, 38, 0.6);
+  }
+}
+
+/* Animação de borda glow */
+@keyframes border-glow {
+  0%,
+  100% {
+    border-color: rgba(220, 38, 38, 0.3);
+  }
+  50% {
+    border-color: rgba(220, 38, 38, 0.8);
+  }
+}
+
+/* Float animation (para elementos flutuantes) */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================
+   UTILITÁRIOS
+   ============================================ */
+
+/* Efeito glassmorphism para cards */
+.glass {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Ring animado para foto de perfil */
+.profile-ring {
+  position: relative;
+}
+
+.profile-ring::before {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ef4444, #dc2626, #7f1d1d);
+  z-index: -1;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Classes utilitárias */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-border-glow {
+  animation: border-glow 2s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.7s ease-out both;
+}
+
+/* Scrollbar customizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(220, 38, 38, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 38, 38, 0.5);
+}
+
 .salutation {
   position: absolute;
   top: 4vh;
@@ -123,9 +354,9 @@ body {
 
 .links-title span {
   letter-spacing: 0.1rem;
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-style: italic;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  font-weight: 300;
 }
 
 .bbc {
@@ -160,7 +391,7 @@ body {
 
 .bbc:hover {
   text-decoration: underline;
-  filter: drop-shadow(0 0 0.4rem #c9d1d9);
+  filter: drop-shadow(0 0 0.4rem #6b727c);
 }
 
 .bbc a {
