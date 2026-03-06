@@ -88,7 +88,7 @@
   .links-title {
     position: absolute;
     display: flex;
-    top: 50vh;
+    top: 48vh;
     left: 50%;
     transform: translate(-50%);
   }
@@ -190,6 +190,7 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
 
