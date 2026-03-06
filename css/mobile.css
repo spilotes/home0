@@ -34,8 +34,8 @@
 
   .name {
     top: 35vh;
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.25rem;
+    font-weight: 500;
     letter-spacing: 0.06rem;
     left: 50%;
     margin-right: -50%;
@@ -49,7 +49,7 @@
     left: 50%;
     transform: translate(-50%);
     color: #6b727c;
-    font-size: 0.9rem;
+    font-size: 0.825rem;
     font-weight: 300;
     transition: all 1s ease-in-out;
   }
@@ -100,7 +100,7 @@
   .bbc img {
     position: absolute;
     width: 30vw;
-    top: -5vh;
+    top: -4vh;
     left: 50%;
     transform: translate(-50%);
   }
@@ -190,4 +190,5 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
