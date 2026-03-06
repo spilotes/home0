@@ -100,7 +100,7 @@
   .bbc img {
     position: absolute;
     width: 30vw;
-    top: -4vh;
+    top: -6vh;
     left: 50%;
     transform: translate(-50%);
   }
@@ -190,5 +190,6 @@
     filter: drop-shadow(0 0 0.2rem #000);
   }
 }
+
 
 
