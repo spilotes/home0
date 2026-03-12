@@ -276,7 +276,7 @@ body {
 
 .yo {
   width: 15vw;
-  border: 3px solid #c9d1d9;
+  border: 3px solid #080808;
   border-radius: 50%;
   cursor: pointer;
   filter: drop-shadow(0 0 0.4rem #000);
@@ -464,4 +464,5 @@ body {
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #000);
 }
+
 
