@@ -350,14 +350,6 @@ body {
   transform: translate(-50%);
 }
 
-.links-title::before,
-.links-title::after {
-  content: "";
-  flex: 1;
-  border-bottom: 1px solid #8b0000;
-  margin: 0 15px;
-}
-
 .links-title span {
   letter-spacing: 0.1rem;
   font-size: 0.875rem;
