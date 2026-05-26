@@ -13,14 +13,6 @@ body {
   width: 100vw;
   background-color: #0c0f14;
   opacity: 1;
-  background-size: 6px 6px;
-  background-image: repeating-linear-gradient(
-    0deg,
-    #080808,
-    #080808 0.6000000000000001px,
-    #3c1414 0.6000000000000001px,
-    #3c1414
-  );
   overflow-x: hidden;
   overflow-y: hidden;
 }
