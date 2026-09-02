@@ -159,7 +159,7 @@ top: 15.5vh;
     display: grid;
     grid-template-columns: repeat(3, 3.3rem);
     grid-template-rows: minmax(2rem, auto) repeat(3, 2rem);
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .links-container aside a {
