@@ -30,6 +30,11 @@
     filter: drop-shadow(0 0 0.4rem #c9d1d9);
   }
 
+.fa-dev {
+cursor: pointer;
+top: 15.5vh;
+}
+
   .name {
     top: 35vh;
     font-size: 1.25rem;
