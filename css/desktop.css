@@ -3,6 +3,14 @@
     top: 43vh;
   }
 
+  .fa-dev {
+cursor: pointer;
+  top: 22.5vh;
+  left: 88%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}
+
   .mail {
     top: 47vh;
   }
