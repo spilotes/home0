@@ -152,13 +152,13 @@ top: 15.5vh;
     justify-content: center;
     align-items: center;
     margin-top: 68vh;
-    margin-left: 1vh;
+    margin-left: 2vh;
   }
 
   .links-container aside {
     display: grid;
     grid-template-columns: repeat(3, 3.3rem);
-    grid-template-rows: minmax(2rem, auto) repeat(3, 2rem);
+    grid-template-rows: minmax(2rem, auto) repeat(3, 1rem);
     gap: 1rem;
   }
 
