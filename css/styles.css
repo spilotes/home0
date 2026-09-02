@@ -281,8 +281,8 @@ body {
 .fa-dev {
 cursor: pointer;
   position: absolute;
-  top: 20vh;
-  left: 75%;
+  top: 24vh;
+  left: 80%;
   margin-right: -50%;
   transform: translate(-50%);
 
