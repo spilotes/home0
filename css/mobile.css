@@ -158,7 +158,7 @@ top: 15.5vh;
   .links-container aside {
     display: grid;
     grid-template-columns: repeat(3, 3.3rem);
-    grid-template-rows: minmax(1rem, auto) repeat(3, 2rem);
+    grid-template-rows: minmax(2rem, auto) repeat(3, 2rem);
     gap: 1rem;
   }
 
@@ -177,6 +177,10 @@ top: 15.5vh;
   .links-container aside i:hover {
     color: #c9d1d9;
   }
+
+.fa-discord {
+margin-left: -1vh;
+}
 
   .ano {
     position: absolute;
