@@ -49,7 +49,7 @@
 .fa-dev {
   animation-name: animacao;
   animation-duration: 1s;
-  animation-delay: 2.5s; /* Define um atraso de 2 segundos */
+  animation-delay: 4.5s; /* Define um atraso de 4.5 segundos */
   opacity: 0; /* Define a opacidade inicial como 0 */
   animation-fill-mode: forwards;
 }
