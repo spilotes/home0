@@ -250,6 +250,7 @@ body {
 .salutation {
   position: absolute;
   top: 4vh;
+  color: #6F4F4F;
   font-size: 1.4rem;
   font-family: "Nanum Pen Script", cursive;
   left: 50%;
@@ -458,14 +459,12 @@ cursor: pointer;
   transform: translate(-50%);
   font-size: 0.75rem;
   color: #6F4F4F;
-  filter: drop-shadow(0 0 0.1rem #0A0B1A);
 }
 
 .ano span {
   font-size: 1rem;
   color: #6F4F4F;
   font-family: "Nanum Pen Script", cursive;
-  filter: drop-shadow(0 0 0.1rem #0A0B1A);
 }
 
 
