@@ -291,9 +291,14 @@ cursor: pointer;
   filter: drop-shadow(0 0 0.2rem #0A0B1A);
 }
 
-.fa-dev:hover {
+.fa-dev i {
+  background: linear-gradient(to bottom, #878899, #6F4F4F);
+}
+
+.fa-dev i:hover {
   background: linear-gradient(to bottom, #6F4F4F, #878899);
 }
+
 
 .name {
   position: absolute;
@@ -446,28 +451,13 @@ cursor: pointer;
   background: linear-gradient(to bottom, #6F4F4F, #878899);
 }
 
-ano {
-  position: absolute;
-  bottom: 1vh;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 0.75rem;
-  filter: drop-shadow(0 0 0.1rem #0A0B1A);
-}
-
-.ano span {
-  font-size: 1rem;
-  color: #6F4F4F;
-  font-family: "Nanum Pen Script", cursive;
-  filter: drop-shadow(0 0 0.1rem #0A0B1A);
-}
-
 .ano {
   position: absolute;
   bottom: 1vh;
   left: 50%;
   transform: translate(-50%);
   font-size: 0.75rem;
+  color: #6F4F4F;
   filter: drop-shadow(0 0 0.1rem #0A0B1A);
 }
 
