@@ -62,7 +62,7 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%);
-    filter: drop-shadow(0 0 0.2rem #000);
+    filter: drop-shadow(0 0 0.2rem #0A0B1A);
   }
 
   .mail {
@@ -70,7 +70,7 @@
     top: 38.5vh;
     left: 50%;
     transform: translate(-50%);
-    color: #6b727c;
+    color: #6F4F4F;
     font-size: 0.825rem;
     font-weight: 300;
     transition: all 1s ease-in-out;
@@ -96,15 +96,15 @@
   }
 
   .mail:hover {
-    color: #c9d1d9;
+    color: #878899;
   }
 
   .mail a {
-    color: #6b727c;
+    color: #6F4F4F;
   }
 
   .mail a:hover {
-    color: #c9d1d9;
+    color: #878899;
   }
 
   .links-title {
@@ -134,7 +134,7 @@
     transform: translate(-50%);
     cursor: pointer;
     letter-spacing: 0.05rem;
-    filter: drop-shadow(0 0 0.4rem #000);
+    filter: drop-shadow(0 0 0.4rem #0A0B1A);
   }
 
   /* Define a animação */
@@ -158,7 +158,7 @@
 
   .bbc:hover {
     text-decoration: underline;
-    filter: drop-shadow(0 0 0.4rem #c9d1d9);
+    filter: drop-shadow(0 0 0.4rem #E7E8EB);
   }
 
   .bbc a {
@@ -190,11 +190,6 @@
     cursor: pointer;
     font-size: 2.9rem;
     transition: all 0.3s ease-in-out;
-    color: #6b727c;
-  }
-
-  .links-container aside i:hover {
-    color: #c9d1d9;
   }
 
 .fa-discord {
@@ -207,13 +202,11 @@ margin-left: -1vh;
     left: 50%;
     transform: translate(-50%);
     font-size: 0.75rem;
-    filter: drop-shadow(0 0 0.2rem #000);
   }
 
   .ano span {
     font-size: 1rem;
     font-family: "Nanum Pen Script", cursive;
-    filter: drop-shadow(0 0 0.2rem #000);
   }
 }
 
