@@ -445,7 +445,7 @@ cursor: pointer;
 }
 
 .links-container aside i:hover {
-  background: linear-gradient(to bottom, #6F4F4F, #878899);
+  color: #6F4F4F;
 }
 
 .ano {
