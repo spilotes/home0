@@ -68,7 +68,7 @@ body {
   position: absolute;
   width: 2px;
   height: 2px;
-  background: white;
+  background: #6f4f4f;
   border-radius: 50%;
   animation: twinkle var(--twinkle-duration, 3s) ease-in-out infinite;
   animation-delay: var(--twinkle-delay, 0s);
