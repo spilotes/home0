@@ -134,7 +134,7 @@
     transform: translate(-50%);
     cursor: pointer;
     letter-spacing: 0.05rem;
-    filter: drop-shadow(0 0 0.4rem #0A0B1A);
+    filter: drop-shadow(0 0 0.2rem #0A0B1A);
   }
 
   /* Define a animação */
@@ -158,7 +158,7 @@
 
   .bbc:hover {
     text-decoration: underline;
-    filter: drop-shadow(0 0 0.2rem #E7E8EB);
+    filter: drop-shadow(0 0 0.15rem #E7E8EB);
   }
 
   .bbc a {
