@@ -445,7 +445,7 @@ cursor: pointer;
 }
 
 .links-container aside i:hover {
-  color: #6F4F4F;
+  background: #6F4F4F;
 }
 
 .ano {
