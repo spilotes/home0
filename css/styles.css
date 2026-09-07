@@ -285,7 +285,6 @@ cursor: pointer;
   left: 88%;
   margin-right: -50%;
   transform: translate(-50%);
-
   font-size: 1.8rem;
   transition: all 0.3s ease-in-out;
   background: linear-gradient(to bottom, #878899, #6F4F4F);
@@ -293,7 +292,7 @@ cursor: pointer;
 }
 
 .fa-dev:hover {
-  color: #c9d1d9;
+  background: linear-gradient(to bottom, #6F4F4F, #878899);
 }
 
 .name {
@@ -415,21 +414,6 @@ cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
-.ano {
-  position: absolute;
-  bottom: 1vh;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 0.75rem;
-  filter: drop-shadow(0 0 0.2rem #0A0B1A);
-}
-
-.ano span {
-  font-size: 1rem;
-  font-family: "Nanum Pen Script", cursive;
-  filter: drop-shadow(0 0 0.2rem #0A0B1A);
-}
-
 .links-container {
   display: flex;
   justify-content: center;
@@ -473,6 +457,7 @@ cursor: pointer;
 
 .ano span {
   font-size: 1rem;
+  color: #6F4F4F;
   font-family: "Nanum Pen Script", cursive;
   filter: drop-shadow(0 0 0.2rem #0A0B1A);
 }
