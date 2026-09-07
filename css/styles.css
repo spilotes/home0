@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: #c9d1d9;
+  color: #878899;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -313,7 +313,7 @@ cursor: pointer;
   top: 51vh;
   left: 50%;
   transform: translate(-50%);
-  color: #6b727c;
+  color: #6F4F4F;
   font-size: 0.9rem;
   font-weight: 300;
   transition: all 0.2s ease-in-out;
