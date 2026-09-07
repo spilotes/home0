@@ -250,13 +250,13 @@ body {
 .salutation {
   position: absolute;
   top: 4vh;
-  color: #6F4F4F;
+  color: #6f4f4f;
   font-size: 1.4rem;
   font-family: "Nanum Pen Script", cursive;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
-  filter: drop-shadow(0 0 0.2rem #0A0B1A);
+  filter: drop-shadow(0 0 0.2rem #0a0b1a);
 }
 
 .face {
@@ -268,10 +268,11 @@ body {
 
 .yo {
   width: 15vw;
-  border: 3px solid #080808;
+  border: 3px solid #1a0a0a;
   border-radius: 50%;
   cursor: pointer;
-  filter: drop-shadow(0 0 0.4rem #0A0B1A);
+  filter: drop-shadow(0 0 0.4rem #0a0b1a);
+  object-fit: cover;
   transition: all 1s ease-in-out;
 }
 
@@ -280,7 +281,7 @@ body {
 }
 
 .fa-dev {
-cursor: pointer;
+  cursor: pointer;
   position: absolute;
   top: 25.5vh;
   left: 88%;
@@ -288,25 +289,30 @@ cursor: pointer;
   transform: translate(-50%);
   font-size: 1.8rem;
   transition: all 0.3s ease-in-out;
-  color: #6F4F4F;
-  filter: drop-shadow(0 0 0.2rem #0A0B1A);
+  background: linear-gradient(to bottom, #878899, #6f4f4f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 0.2rem #0a0b1a);
 }
 
 .fa-dev:hover {
-  color: #878899;
+  background: linear-gradient(to bottom, #6f4f4f, #878899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .name {
   position: absolute;
   top: 46vh;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.06rem;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%);
-  filter: drop-shadow(0 0 0.2rem #0A0B1A);
+  filter: drop-shadow(0 0 0.2rem #0a0b1a);
 }
 
 .mail {
@@ -314,7 +320,7 @@ cursor: pointer;
   top: 51vh;
   left: 50%;
   transform: translate(-50%);
-  color: #6F4F4F;
+  color: #6f4f4f;
   font-size: 0.9rem;
   font-weight: 300;
   transition: all 0.2s ease-in-out;
@@ -344,7 +350,7 @@ cursor: pointer;
 }
 
 .mail a {
-  color: #6F4F4F;
+  color: #6f4f4f;
 }
 
 .mail a:hover {
@@ -362,19 +368,19 @@ cursor: pointer;
 
 .links-title span {
   letter-spacing: 0.1rem;
-  font-size: 9rem;
+  font-size: 0 9rem;
   letter-spacing: 0.06em;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .bbc {
   position: absolute;
-  top: 77vh;
+  top: 76.5vh;
   left: 50%;
   transform: translate(-50%);
   cursor: pointer;
   letter-spacing: 0.05rem;
-  filter: drop-shadow(0 0 0.4rem #0A0B1A);
+  filter: drop-shadow(0 0 0.4rem #0a0b1a);
   transition: all 0.2s ease-in-out;
 }
 
@@ -399,7 +405,7 @@ cursor: pointer;
 
 .bbc:hover {
   text-decoration: underline;
-  filter: drop-shadow(0 0 0.4rem #E7E8EB);
+  filter: drop-shadow(0 0 0.2rem #e7e8eb);
 }
 
 .bbc a {
@@ -410,7 +416,7 @@ cursor: pointer;
 .bbc img {
   position: absolute;
   width: 10vw;
-  top: -7.5vh;
+  top: -8.5vh;
   left: 50%;
   transform: translate(-50%);
   transition: all 0.3s ease-in-out;
@@ -437,15 +443,18 @@ cursor: pointer;
   cursor: pointer;
   font-size: 2.5rem;
   transition: all 0.3s ease-in-out;
-  background: linear-gradient(to bottom, #878899, #6F4F4F);
+  background: linear-gradient(to bottom, #878899, #6f4f4f);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 0.2rem #0A0B1A);
+  filter: drop-shadow(0 0 0.2rem #0a0b1a);
 }
 
 .links-container aside i:hover {
-  background: linear-gradient(to bottom, #6F4F4F, #878899);
+  background: linear-gradient(to bottom, #6f4f4f, #878899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .ano {
@@ -454,13 +463,11 @@ cursor: pointer;
   left: 50%;
   transform: translate(-50%);
   font-size: 0.75rem;
-  color: #6F4F4F;
+  color: #6f4f4f;
 }
 
 .ano span {
   font-size: 1rem;
-  color: #6F4F4F;
+  color: #6f4f4f;
   font-family: "Nanum Pen Script", cursive;
 }
-
-
