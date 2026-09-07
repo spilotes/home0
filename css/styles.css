@@ -288,16 +288,12 @@ cursor: pointer;
   transform: translate(-50%);
   font-size: 1.8rem;
   transition: all 0.3s ease-in-out;
-  background: linear-gradient(to bottom, #878899, #6F4F4F);
+  color: #6F4F4F;
   filter: drop-shadow(0 0 0.2rem #0A0B1A);
 }
 
-.fa-dev i {
-  background: linear-gradient(to bottom, #878899, #6F4F4F);
-}
-
-.fa-dev i:hover {
-  background: linear-gradient(to bottom, #6F4F4F, #878899);
+.fa-dev:hover {
+  color: #878899;
 }
 
 
